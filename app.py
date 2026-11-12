@@ -6,7 +6,7 @@ class Manejador(BaseHTTPRequestHandler):
 
     if self.path == "/":
         respuesta = {
- "mensaje": "Hola desde Docker - Universidad Distrital",
+ "mensaje": "Mi primer contenedor automatizado",
  "version": os.getenv("APP_VERSION", "1.0")
  }
         estado = 200   
